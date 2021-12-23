@@ -17,3 +17,4 @@ print ('liczba paczek wysłanych {}' .format(packages))
 print ('liczba kilogramów wysłanych {}' .format(kilos))
 print ('suma pustych kilogramów {}' .format(packages*20-kilos))
 #print ('paczka numer {} miała najwięcej pustych kilogramów - {}kg' .format(box,20-box_weight))
+
