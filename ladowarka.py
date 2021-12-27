@@ -16,14 +16,12 @@ while items > 0:
     if box_weight + weight <= 20:
             box_weight += weight 
             kilos += weight
-            print (kilos)
     else:  
         empty_box_weight = 20 - box_weight
         box_weight = 0 
         box_weight= weight 
         kilos += weight
         packages += 1
-        print (kilos)
         if empty_box_weight > max_empty_box_weight:
             max_empty_box_number = packages
             max_empty_box_weight = empty_box_weight
